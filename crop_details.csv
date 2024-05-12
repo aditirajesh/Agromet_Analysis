@@ -1,0 +1,37 @@
+crop,phase,GDD
+rice,Germination and emergence,120
+rice,Seedling stage,300
+rice ,Tilering stage,700
+rice,Panicle initiation,1000
+rice,Heading stage,1300
+rice,Flowering Stage,1800
+rice,Grain Filling Stage,2500
+lentil,Germination and emergence,80
+lentil,Seedling stage,250
+lentil,Vegetative stage,400
+lentil,Budding and flowering,800
+lentil,Pod formation,1200
+lentil,Pod filling,1800
+chickpea,Germination and emergence,100
+chickpea,Seedling stage,250
+chickpea,Vegetative stage,500
+chickpea,Flowering Stage,1200
+chickpea,Pod formation,1800
+chickpea,Pod filling,2500
+coffee,Early Growth,800
+coffee,Flowering intiation,1500
+coffee,Fruit development,3000
+maize,Germination and emergence,100
+maize,Seedling stage,300
+maize,Vegetative stage,1200
+maize,Tasseling and pollination,1500
+maize,Grain Filling Stage,2500
+jute,Germination and emergence,150
+jute,Vegetative stage,400
+jute,Flowering and Fiber formation,800
+cotton,Germination and emergence,120
+cotton,Seedling stage,300
+cotton,Vegetative stage,700
+cotton,Square formation,1200
+cotton,First Bloom,1500
+cotton,Boll Formation and growth,2500

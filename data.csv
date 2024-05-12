@@ -1,0 +1,5 @@
+fname,lname,mail,phno,passwd,location,n,p,k,crop,dos,area
+'Udantika','Test',example@123,'9090909',passwd,chennai,50.0,50.0,30.0,lentil,18-08-2023,2.0
+jessica,'Test',jessica@gmail.com,'9090909',123,coimbatore,50.0,50.0,30.0,lentil,18-08-2023,2.0
+1234,123,1234@gmail.com,,987987987,coimbatore,2.0,4.0,7.0,lentils,,5.0
+adharsh,guru,adharsh@gmail.com,1234981498,1111,chennai,50,50,30,rice,,2
