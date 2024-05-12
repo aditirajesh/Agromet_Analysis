@@ -1,0 +1,373 @@
+.settings2 {
+  position: absolute;
+  top: 855px;
+  left: 112px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.dashboard-crop-stage-child {
+  position: absolute;
+  top: 0;
+  left: 399px;
+  background-color: var(--color-beige-100);
+  width: 1047px;
+  height: 1024px;
+}
+.crop-stage-icon,
+.crop-stage-icon1,
+.crop-stage-icon2 {
+  position: absolute;
+  top: 67px;
+  left: 980px;
+  width: 94px;
+  height: 94px;
+  overflow: hidden;
+}
+.crop-stage-icon1,
+.crop-stage-icon2 {
+  left: 982px;
+}
+.crop-stage-icon2 {
+  top: 69px;
+}
+.dashboard-crop-stage-item {
+  position: absolute;
+  top: 704px;
+  left: 18px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-beige-400);
+  width: 363px;
+  height: 112px;
+}
+.settings3 {
+  position: absolute;
+  top: 58px;
+  left: 471px;
+  font-size: var(--font-size-61xl);
+  display: inline-block;
+  color: var(--color-darkolivegreen-100);
+  width: 627px;
+  height: 111px;
+}
+.dashboard-crop-stage-inner {
+  position: absolute;
+  top: 195.5px;
+  left: 403.5px;
+  border-top: 1px solid var(--color-darkolivegreen-100);
+  box-sizing: border-box;
+  width: 1026px;
+  height: 1px;
+}
+.settings-logo-icon2 {
+  position: absolute;
+  top: 14px;
+  left: 34px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.settings4 {
+  position: absolute;
+  top: 24px;
+  left: 112px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.crop-tab2,
+.settings-tab-inner,
+.settings-tab2 {
+  position: absolute;
+  left: 0;
+  width: 399px;
+  height: 81px;
+}
+.settings-tab-inner {
+  top: 0;
+  background-color: var(--color-gainsboro-200);
+}
+.crop-tab2,
+.settings-tab2 {
+  top: 831px;
+}
+.crop-tab2 {
+  top: 716px;
+}
+.fertilizers-logo-icon2 {
+  position: absolute;
+  height: 61.73%;
+  width: 12.53%;
+  top: 18.52%;
+  right: 78.95%;
+  bottom: 19.75%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fertilizers2 {
+  position: absolute;
+  top: 25px;
+  left: 111px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.fertilizers-tab2 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 58.59%;
+  right: 0;
+  bottom: 33.5%;
+  left: 0;
+}
+.weather-logo-icon2 {
+  position: absolute;
+  height: 61.73%;
+  width: 12.53%;
+  top: 16.05%;
+  right: 78.95%;
+  bottom: 22.22%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.weather-forecast2 {
+  position: absolute;
+  top: 23px;
+  left: 112px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.weather-tab2 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 47.56%;
+  right: 0;
+  bottom: 44.53%;
+  left: 0;
+}
+.notifications-logo-icon2 {
+  position: absolute;
+  height: 61.73%;
+  width: 12.53%;
+  top: 30.86%;
+  right: 80.2%;
+  bottom: 7.41%;
+  left: 7.27%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notifications2 {
+  position: absolute;
+  top: 35px;
+  left: 107px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.home-logo-icon2,
+.notifications-tab2 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 35.16%;
+  right: -1.25%;
+  bottom: 56.93%;
+  left: 1.25%;
+}
+.home-logo-icon2 {
+  height: 100%;
+  width: 13.7%;
+  top: 0;
+  right: 86.3%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home2 {
+  position: absolute;
+  top: 10px;
+  left: 105px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.home-logo-container,
+.home-text2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.home-text2 {
+  height: 61.73%;
+  width: 91.48%;
+  top: 18.52%;
+  bottom: 19.75%;
+  left: 8.52%;
+}
+.current-tab-indicator2 {
+  position: absolute;
+  top: -2px;
+  left: 1px;
+  border-radius: 0 var(--br-base) var(--br-base) 0;
+  background-color: var(--color-white);
+  width: 8px;
+  height: 81px;
+  display: none;
+}
+.home-tab-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-100);
+  width: 399px;
+  height: 81px;
+  opacity: 0;
+}
+.home-tab2 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 25.49%;
+  right: 0;
+  bottom: 66.6%;
+  left: 0;
+}
+.line-details-icon2 {
+  position: absolute;
+  top: 173px;
+  left: 0;
+  width: 388px;
+  height: 50px;
+  display: none;
+}
+.main-logo-icon2 {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  width: 539px;
+  height: 197px;
+  object-fit: cover;
+}
+.goagrosmart2 {
+  position: absolute;
+  top: 74px;
+  left: 133px;
+  font-weight: 600;
+  display: inline-block;
+  width: 349px;
+  height: 68px;
+}
+.main-text2 {
+  position: absolute;
+  top: -6px;
+  left: -11px;
+  width: 539px;
+  height: 197px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.sidebar-expanded-sidebar2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkolivegreen-100);
+  width: 399px;
+  height: 1024px;
+  overflow: hidden;
+}
+.crop-stage-button1,
+.fertilizers-button1,
+.home-button1,
+.notif-button1,
+.rectangle-button,
+.settings-button1,
+.weather-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-beige-300);
+  position: absolute;
+  top: 362px;
+  left: 13px;
+  border-radius: var(--br-31xl);
+  width: 363px;
+  height: 112px;
+}
+.crop-stage-button1,
+.fertilizers-button1,
+.home-button1,
+.rectangle-button,
+.settings-button1,
+.weather-button1 {
+  top: 462px;
+  left: 9px;
+}
+.crop-stage-button1,
+.fertilizers-button1,
+.home-button1,
+.rectangle-button,
+.settings-button1 {
+  top: 581px;
+  left: 13px;
+}
+.crop-stage-button1,
+.home-button1,
+.rectangle-button,
+.settings-button1 {
+  top: 700px;
+  left: 21px;
+}
+.home-button1,
+.rectangle-button,
+.settings-button1 {
+  top: 826px;
+  left: 20px;
+}
+.home-button1,
+.rectangle-button {
+  top: 250px;
+  left: 5px;
+}
+.rectangle-button {
+  background-color: var(--color-beige-400);
+  top: 705px;
+  left: 21px;
+}
+.line-icon {
+  position: absolute;
+  top: 196px;
+  left: 0;
+  width: 400px;
+  height: 2.04px;
+}
+.dashboard-crop-stage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

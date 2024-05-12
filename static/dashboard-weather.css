@@ -1,0 +1,432 @@
+.dashboard-weather-child {
+  position: absolute;
+  top: -2px;
+  left: 396px;
+  background-color: var(--color-beige-100);
+  width: 1042px;
+  height: 1024px;
+}
+.dashboard-weather-item {
+  position: absolute;
+  top: 197.5px;
+  left: 406.5px;
+  border-top: 1px solid var(--color-darkolivegreen-100);
+  box-sizing: border-box;
+  width: 1026px;
+  height: 1px;
+}
+.weather-header1,
+.weather1 {
+  position: absolute;
+  width: 841px;
+  height: 120px;
+}
+.weather1 {
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.weather-header1 {
+  top: 44px;
+  left: 466px;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--color-darkolivegreen-100);
+}
+.weather-logo-icon4 {
+  position: absolute;
+  height: 8.01%;
+  width: 6.18%;
+  top: 5.86%;
+  right: 7.01%;
+  bottom: 86.13%;
+  left: 86.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bubbles-icon {
+  position: absolute;
+  top: 323px;
+  left: 466px;
+  width: 906px;
+  height: 519px;
+}
+.feels-like,
+.max-temp,
+.min-temp,
+.pressure,
+.temperature,
+.wind-speed {
+  position: absolute;
+  top: 350px;
+  left: 470px;
+  font-weight: 500;
+  display: inline-block;
+  width: 196px;
+  height: 36px;
+}
+.feels-like,
+.max-temp,
+.min-temp,
+.pressure,
+.wind-speed {
+  top: 351px;
+  left: 701px;
+}
+.max-temp,
+.min-temp,
+.pressure,
+.wind-speed {
+  left: 931px;
+  width: 198px;
+}
+.max-temp,
+.pressure,
+.wind-speed {
+  top: 352px;
+  left: 1177px;
+}
+.pressure,
+.wind-speed {
+  top: 638px;
+  left: 470px;
+  width: 196px;
+}
+.wind-speed {
+  left: 701px;
+}
+.conditioner {
+  margin: 0;
+}
+.humidity,
+.weather-conditioner {
+  position: absolute;
+  top: 625px;
+  left: 932px;
+  font-weight: 500;
+  display: inline-block;
+  width: 198px;
+  height: 36px;
+}
+.humidity {
+  top: 640px;
+  left: 1172px;
+}
+.dashboard-weather-inner {
+  position: absolute;
+  top: 466px;
+  left: 18px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-beige-400);
+  width: 363px;
+  height: 112px;
+}
+.settings-logo-icon4 {
+  position: absolute;
+  top: 14px;
+  left: 34px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.settings7 {
+  position: absolute;
+  top: 24px;
+  left: 112px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.crop-tab4,
+.settings-tab-child1,
+.settings-tab4 {
+  position: absolute;
+  left: 0;
+  width: 399px;
+  height: 81px;
+}
+.settings-tab-child1 {
+  top: 0;
+  background-color: var(--color-gainsboro-200);
+}
+.crop-tab4,
+.settings-tab4 {
+  top: 831px;
+}
+.crop-tab4 {
+  top: 716px;
+}
+.fertilizers-logo-icon4 {
+  position: absolute;
+  height: 61.73%;
+  width: 12.53%;
+  top: 18.52%;
+  right: 78.95%;
+  bottom: 19.75%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fertilizers4 {
+  position: absolute;
+  top: 25px;
+  left: 111px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.fertilizers-tab4 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 58.59%;
+  right: 0;
+  bottom: 33.5%;
+  left: 0;
+}
+.weather-logo-icon5 {
+  position: absolute;
+  height: 61.73%;
+  width: 12.53%;
+  top: 16.05%;
+  right: 78.95%;
+  bottom: 22.22%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.weather-forecast4 {
+  position: absolute;
+  top: 23px;
+  left: 112px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.weather-tab4 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 47.56%;
+  right: 0;
+  bottom: 44.53%;
+  left: 0;
+}
+.notifications-logo-icon4 {
+  position: absolute;
+  height: 61.73%;
+  width: 12.53%;
+  top: 30.86%;
+  right: 80.2%;
+  bottom: 7.41%;
+  left: 7.27%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notifications4 {
+  position: absolute;
+  top: 35px;
+  left: 107px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.home-logo-icon4,
+.notifications-tab4 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 35.16%;
+  right: -1.25%;
+  bottom: 56.93%;
+  left: 1.25%;
+}
+.home-logo-icon4 {
+  height: 100%;
+  width: 13.7%;
+  top: 0;
+  right: 86.3%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home4 {
+  position: absolute;
+  top: 10px;
+  left: 105px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.home-logo-parent1,
+.home-text4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.home-text4 {
+  height: 61.73%;
+  width: 91.48%;
+  top: 18.52%;
+  bottom: 19.75%;
+  left: 8.52%;
+}
+.current-tab-indicator4 {
+  position: absolute;
+  top: -2px;
+  left: 1px;
+  border-radius: 0 var(--br-base) var(--br-base) 0;
+  background-color: var(--color-white);
+  width: 8px;
+  height: 81px;
+  display: none;
+}
+.home-tab-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-100);
+  width: 399px;
+  height: 81px;
+  opacity: 0;
+}
+.home-tab4 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 25.49%;
+  right: 0;
+  bottom: 66.6%;
+  left: 0;
+}
+.line-details-icon4 {
+  position: absolute;
+  top: 173px;
+  left: 0;
+  width: 388px;
+  height: 50px;
+  display: none;
+}
+.main-logo-icon4 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 539px;
+  height: 197px;
+  object-fit: cover;
+}
+.goagrosmart4 {
+  position: absolute;
+  top: 74px;
+  left: 133px;
+  font-weight: 600;
+  display: inline-block;
+  width: 349px;
+  height: 68px;
+}
+.main-text4 {
+  position: absolute;
+  top: -6px;
+  left: -11px;
+  width: 539px;
+  height: 197px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.sidebar-expanded-sidebar4 {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  background-color: var(--color-darkolivegreen-100);
+  width: 399px;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+}
+.crop-stage-button3,
+.dashboard-weather-child1,
+.fertilizers-button3,
+.home-button3,
+.notif-button3,
+.settings-button3,
+.weather-button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-beige-400);
+  position: absolute;
+  top: 468px;
+  left: 17px;
+  border-radius: var(--br-31xl);
+  width: 363px;
+  height: 112px;
+}
+.crop-stage-button3,
+.fertilizers-button3,
+.home-button3,
+.notif-button3,
+.settings-button3,
+.weather-button3 {
+  background-color: var(--color-beige-300);
+  top: 373px;
+  left: 14px;
+}
+.crop-stage-button3,
+.fertilizers-button3,
+.home-button3,
+.settings-button3,
+.weather-button3 {
+  top: 460px;
+}
+.crop-stage-button3,
+.fertilizers-button3,
+.home-button3,
+.settings-button3 {
+  top: 587px;
+}
+.crop-stage-button3,
+.home-button3,
+.settings-button3 {
+  top: 698px;
+}
+.home-button3,
+.settings-button3 {
+  top: 815px;
+}
+.home-button3 {
+  top: 248px;
+}
+.dashboard-weather-child2 {
+  position: absolute;
+  top: 196px;
+  left: 0;
+  width: 394px;
+  height: 2.04px;
+}
+.dashboard-weather {
+  position: relative;
+  background-color: var(--color-beige-200);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

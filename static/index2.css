@@ -1,0 +1,598 @@
+.title-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-beige-100);
+  width: 1045px;
+  height: 1024px;
+}
+.welcome-back-while,
+.welcome-text {
+  position: absolute;
+  top: 220px;
+  left: 34px;
+  font-size: 48px;
+  display: inline-block;
+  width: 422px;
+  height: 110px;
+}
+.welcome-back-while {
+  top: 328px;
+  left: 36px;
+  font-size: 24px;
+  font-family: var(--font-merriweather-sans);
+  color: #0b4e17;
+  width: 874px;
+  height: 45px;
+  opacity: 0.7;
+}
+.title-item {
+  position: absolute;
+  top: 195px;
+  left: 5px;
+  width: 1036px;
+  height: 3px;
+}
+.home-icon,
+.home-icon2,
+.home-icon3,
+.home-icon4 {
+  position: absolute;
+  height: 8.69%;
+  width: 8.52%;
+  top: 4.39%;
+  right: 60.67%;
+  bottom: 86.91%;
+  left: 30.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-icon2,
+.home-icon3,
+.home-icon4 {
+  right: 60.48%;
+  left: 31%;
+}
+.home-icon3,
+.home-icon4 {
+  top: 4.59%;
+  bottom: 86.72%;
+}
+.home-icon4 {
+  right: 60.67%;
+  left: 30.81%;
+}
+.harvesting-date,
+.sowing-date,
+.title {
+  position: absolute;
+  top: 858px;
+  left: 60px;
+}
+.harvesting-date,
+.title {
+  top: 940px;
+}
+.title {
+  top: -12px;
+  left: 393px;
+  width: 1045px;
+  height: 1024px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkolivegreen-100);
+}
+.status-chart-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #d5a6eb;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 237.61px;
+  height: 214.31px;
+}
+.status-chart-item {
+  position: absolute;
+  top: 0.4px;
+  left: 28px;
+  border-radius: var(--br-31xl);
+  width: 215.11px;
+  height: 214.31px;
+}
+.percentage,
+.status-chart {
+  position: absolute;
+  top: 76px;
+  left: 110px;
+  width: 237.61px;
+  height: 214.31px;
+}
+.percentage {
+  top: 162px;
+  left: 195px;
+  font-weight: 600;
+  display: inline-block;
+  width: 90px;
+  height: 38px;
+}
+.crop-status-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50.05px;
+  height: 44.28px;
+  overflow: hidden;
+}
+.crop-status2 {
+  position: absolute;
+  top: 0.8px;
+  left: 62.99px;
+  display: inline-block;
+  width: 251px;
+  height: 35px;
+}
+.crop-status1 {
+  position: absolute;
+  top: 6.2px;
+  left: 9.01px;
+  width: 313.99px;
+  height: 44.28px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkolivegreen-100);
+}
+.crop-status,
+.crop-status-child {
+  position: absolute;
+  width: 467px;
+  height: 387px;
+}
+.crop-status-child {
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkolivegreen-400);
+}
+.crop-status {
+  top: 393px;
+  left: 443px;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+}
+.settings-logo-icon1 {
+  position: absolute;
+  top: 14px;
+  left: 34px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.settings1 {
+  position: absolute;
+  top: 24px;
+  left: 112px;
+  font-weight: 500;
+  display: none;
+  width: 260px;
+  height: 30px;
+}
+.crop-stage1,
+.settings-tab-item,
+.settings-tab1 {
+  position: absolute;
+  left: 0;
+  width: 399px;
+  height: 81px;
+}
+.settings-tab-item {
+  top: 0;
+  background-color: var(--color-gainsboro-200);
+}
+.crop-stage1,
+.settings-tab1 {
+  top: 831px;
+}
+.crop-stage1 {
+  top: 24px;
+  left: 112px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.crop-tab1 {
+  position: absolute;
+  top: 716px;
+  left: 0;
+  width: 399px;
+  height: 81px;
+}
+.fertilizers-logo-icon1 {
+  position: absolute;
+  height: 61.73%;
+  width: 12.53%;
+  top: 18.52%;
+  right: 78.95%;
+  bottom: 19.75%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fertilizers1 {
+  position: absolute;
+  top: 25px;
+  left: 111px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.fertilizers-tab1 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 58.59%;
+  right: 0;
+  bottom: 33.5%;
+  left: 0;
+}
+.weather-logo-icon1 {
+  position: absolute;
+  height: 61.73%;
+  width: 12.53%;
+  top: 16.05%;
+  right: 78.95%;
+  bottom: 22.22%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.weather-forecast1 {
+  position: absolute;
+  top: 23px;
+  left: 112px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.weather-tab1 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 47.56%;
+  right: 0;
+  bottom: 44.53%;
+  left: 0;
+}
+.notifications-logo-icon1 {
+  position: absolute;
+  height: 61.73%;
+  width: 12.53%;
+  top: 30.86%;
+  right: 80.2%;
+  bottom: 7.41%;
+  left: 7.27%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notifications1 {
+  position: absolute;
+  top: 35px;
+  left: 107px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.home-logo-icon1,
+.notifications-tab1 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 35.16%;
+  right: -1.25%;
+  bottom: 56.93%;
+  left: 1.25%;
+}
+.home-logo-icon1 {
+  height: 100%;
+  width: 13.7%;
+  top: 0;
+  right: 86.3%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home1 {
+  position: absolute;
+  top: 10px;
+  left: 105px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 30px;
+}
+.home-logo-group,
+.home-text1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.home-text1 {
+  height: 61.73%;
+  width: 91.48%;
+  top: 18.52%;
+  bottom: 19.75%;
+  left: 8.52%;
+}
+.current-tab-indicator1 {
+  position: absolute;
+  top: -2px;
+  left: 1px;
+  border-radius: 0 var(--br-base) var(--br-base) 0;
+  background-color: var(--color-white);
+  width: 8px;
+  height: 81px;
+  display: none;
+}
+.home-tab-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-100);
+  width: 399px;
+  height: 81px;
+  opacity: 0;
+}
+.home-tab1 {
+  position: absolute;
+  height: 7.91%;
+  width: 100%;
+  top: 25.49%;
+  right: 0;
+  bottom: 66.6%;
+  left: 0;
+}
+.line-details-icon1,
+.main-logo-icon1 {
+  position: absolute;
+  top: 173px;
+  left: 0;
+  width: 388px;
+  height: 50px;
+}
+.main-logo-icon1 {
+  top: 6px;
+  left: 11px;
+  width: 539px;
+  height: 197px;
+  object-fit: cover;
+}
+.goagrosmart1 {
+  position: absolute;
+  top: 74px;
+  left: 133px;
+  font-weight: 600;
+  display: inline-block;
+  width: 349px;
+  height: 68px;
+}
+.main-text1 {
+  position: absolute;
+  top: -6px;
+  left: -11px;
+  width: 539px;
+  height: 197px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.sidebar-expanded-sidebar1 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  background-color: var(--color-darkolivegreen-100);
+  width: 399px;
+  height: 1024px;
+  overflow: hidden;
+}
+.profile {
+  position: absolute;
+  top: 855px;
+  left: 113px;
+  font-weight: 500;
+  display: inline-block;
+  width: 92px;
+  height: 75px;
+}
+.crop-stage-button,
+.dashboard-home-child,
+.fertilizers-button,
+.home-button,
+.notif-button,
+.settings-button,
+.weather-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-beige-200);
+  position: absolute;
+  top: 250px;
+  left: 19px;
+  border-radius: var(--br-31xl);
+  width: 363px;
+  height: 112px;
+}
+.crop-stage-button,
+.fertilizers-button,
+.home-button,
+.notif-button,
+.settings-button,
+.weather-button {
+  background-color: var(--color-beige-300);
+  top: 373px;
+  left: 16px;
+}
+.crop-stage-button,
+.fertilizers-button,
+.home-button,
+.settings-button,
+.weather-button {
+  top: 460px;
+}
+.crop-stage-button,
+.fertilizers-button,
+.home-button,
+.settings-button {
+  top: 587px;
+}
+.crop-stage-button,
+.home-button,
+.settings-button {
+  top: 698px;
+}
+.home-button,
+.settings-button {
+  top: 815px;
+}
+.home-button {
+  top: 248px;
+}
+.weather,
+.weather-header {
+  position: absolute;
+  width: 841px;
+  height: 120px;
+}
+.weather {
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.weather-header {
+  top: 43px;
+  left: 440px;
+  font-size: var(--font-size-61xl);
+  color: var(--color-darkolivegreen-100);
+}
+.dashboard-home-inner,
+.dashboard-home-item {
+  position: absolute;
+  top: 847px;
+  left: 766px;
+  background-color: var(--color-darkolivegreen-400);
+  width: 501px;
+  height: 50px;
+  overflow: hidden;
+}
+.dashboard-home-inner {
+  top: 940px;
+}
+.line-icon {
+  position: absolute;
+  top: 196px;
+  left: 0;
+  width: 396px;
+  height: 2.04px;
+}
+.seed-packet-icon,
+.spade-icon {
+  position: absolute;
+  top: 909px;
+  left: 395px;
+  width: 58px;
+  height: 78px;
+  object-fit: cover;
+}
+.seed-packet-icon {
+  top: 835px;
+  left: 398px;
+  width: 57px;
+  height: 62px;
+}
+.frame-child,
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 114px;
+  left: 204px;
+  background-color: var(--color-white);
+  width: 263px;
+  height: 48px;
+  overflow: hidden;
+}
+.frame-inner,
+.frame-item {
+  top: 207px;
+}
+.frame-inner {
+  top: 300px;
+}
+.nitrogen1 {
+  position: absolute;
+  top: 74px;
+  left: 6px;
+}
+.frame-parent,
+.phosphorous1,
+.potassium1 {
+  position: absolute;
+  top: 163px;
+  left: 6px;
+}
+.frame-parent,
+.potassium1 {
+  top: 260px;
+}
+.frame-parent {
+  top: 391px;
+  left: 940px;
+  background-color: var(--color-darkolivegreen-100);
+  width: 476px;
+  height: 389px;
+  overflow: hidden;
+  font-size: var(--font-size-7xl);
+}
+.click-on-the {
+  margin: 0;
+}
+.click-on-the-container {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+}
+.click-on-the-notifications-tab-wrapper {
+  position: absolute;
+  top: 50px;
+  left: 945px;
+  border-radius: var(--br-31xl);
+  background-color: rgba(241, 219, 103, 0.75);
+  box-shadow: 0 4px 4px #000;
+  width: 471px;
+  height: 86px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+}
+.dashboard-home {
+  text-decoration: none;
+  position: relative;
+  background-color: var(--color-beige-400);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

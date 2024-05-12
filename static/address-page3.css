@@ -1,0 +1,138 @@
+.vector-icon {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  width: 976.98px;
+  height: 848.14px;
+}
+.vector-icon1,
+.vector-icon2 {
+  position: absolute;
+  top: 222px;
+  left: 602px;
+  width: 838px;
+  height: 802px;
+}
+.vector-icon2 {
+  top: 44px;
+  left: 0;
+  width: 486px;
+  height: 768px;
+}
+.border-icon,
+.vector-icon3 {
+  position: absolute;
+  top: 0;
+  left: 761.5px;
+  width: 678.5px;
+  height: 455px;
+}
+.border-icon {
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 1440px;
+}
+.address-page3-child,
+.address-page3-item {
+  border: 5px solid var(--color-black);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 341px;
+  left: 638px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  width: 532px;
+  height: 100px;
+}
+.address-page3-item {
+  top: 598px;
+}
+.enter-field-area,
+.in-acres,
+.select-your-crop {
+  position: absolute;
+  top: 353px;
+  left: 233px;
+  font-weight: 600;
+}
+.enter-field-area,
+.in-acres {
+  top: 596px;
+}
+.in-acres {
+  top: 648px;
+  left: 291px;
+  font-size: var(--font-size-16xl);
+}
+.undraw-location-search-re-ttoj-icon {
+  position: absolute;
+  top: 738px;
+  left: 1150px;
+  width: 206px;
+  height: 178px;
+  overflow: hidden;
+}
+.address-page3-inner {
+  position: absolute;
+  top: 110px;
+  left: 348px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-darkolivegreen-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  width: 745px;
+  height: 100px;
+}
+.farmer-information {
+  position: absolute;
+  top: 110px;
+  left: 471px;
+  font-size: var(--font-size-45xl);
+  font-weight: 600;
+  font-family: var(--font-oswald);
+  display: inline-block;
+  width: 498px;
+  height: 91px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 5px solid var(--color-white);
+  padding: 0;
+  background-color: var(--color-darkolivegreen-200);
+  position: absolute;
+  top: 807px;
+  left: 563px;
+  border-radius: var(--br-31xl);
+  box-sizing: border-box;
+  width: 315px;
+  height: 101px;
+}
+.address-page3,
+.submit {
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.submit {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 829px;
+  left: 623px;
+  font-size: var(--font-size-26xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 202px;
+  height: 79px;
+}
+.address-page3 {
+  position: relative;
+  background-color: var(--color-burlywood);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  font-size: var(--font-size-21xl);
+}
