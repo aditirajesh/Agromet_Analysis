@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./static/global.css" />
+    <link rel="stylesheet" href="./static/dashboard-settings.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashboard-settings">
+      <div class="dashboard-settings-child"></div>
+      <div class="dashboard-settings-item"></div>
+      <b class="settings5">Settings </b>
+      <img class="icon" alt="" src="{{url_for('static',filename ='/public/icon.svg')}}" />
+
+      <img class="icon1" alt="" src="{{url_for('static',filename ='/public/icon.svg')}}" />
+
+      <img class="icon2" alt="" src="{{url_for('static',filename ='/public/icon.svg')}}" />
+
+      <div class="dashboard-settings-inner"></div>
+      <div class="sidebar-expanded-sidebar3">
+        <div class="settings-tab3">
+          <img
+            class="settings-logo-icon3"
+            alt=""
+            src="{{url_for('static',filename ='/public/settings-logo2.svg')}}"
+          />
+
+          <div class="settings6">Settings</div>
+          <div class="rectangle-div"></div>
+        </div>
+        <div class="crop-tab3">
+          <img
+            class="settings-logo-icon3"
+            alt=""
+            src="{{url_for('static',filename ='/public/crop-logo2.svg')}}"
+          />
+
+          <div class="settings6">Crop Stage</div>
+          <div class="rectangle-div"></div>
+        </div>
+        <div class="fertilizers-tab3">
+          <img
+            class="fertilizers-logo-icon3"
+            alt=""
+            src="{{url_for('static',filename ='/public/fertilizers-logo2.svg')}}"
+          />
+
+          <div class="fertilizers3">Fertilizers</div>
+          <div class="rectangle-div"></div>
+        </div>
+        <div class="weather-tab3">
+          <img
+            class="weather-logo-icon3"
+            alt=""
+            src="{{url_for('static',filename ='/public/weather-logo2.svg')}}"
+          />
+
+          <div class="weather-forecast3">Weather Forecast</div>
+          <div class="rectangle-div"></div>
+        </div>
+        <div class="notifications-tab3">
+          <img
+            class="notifications-logo-icon3"
+            alt=""
+            src="{{url_for('static',filename ='/public/notifications-logo2.svg')}}"
+          />
+
+          <div class="notifications3">Notifications</div>
+          <div class="rectangle-div"></div>
+        </div>
+        <div class="home-tab3">
+          <div class="home-text3">
+            <div class="group-div">
+              <img
+                class="home-logo-icon3"
+                alt=""
+                src="{{url_for('static',filename ='/public/home-logo.svg')}}"
+              />
+
+              <div class="home3">Home</div>
+            </div>
+          </div>
+          <div class="current-tab-indicator3"></div>
+          <div class="home-tab-child1"></div>
+        </div>
+        <img
+          class="line-details-icon3"
+          alt=""
+          src="{{url_for('static',filename ='/public/line-details.svg')}}"
+        />
+
+        <div class="main-text3">
+          <img class="main-logo-icon3" alt="" src="{{url_for('static',filename ='/public/main-logo@2x.png')}}"/>
+
+          <div class="goagrosmart3">goAgroSmart</div>
+        </div>
+      </div>
+      <button class="dashboard-settings-child1"></button>
+      <button class="dashboard-settings-child2"></button>
+      <button class="notif-button2" id="notifButton"></button>
+      <button class="weather-button2" id="weatherButton"></button>
+      <button class="fertilizers-button2" id="fertilizersButton"></button>
+      <button class="crop-stage-button2" id="cropStageButton"></button>
+      <button class="settings-button2"></button>
+      <button class="home-button2" id="homeButton"></button>
+      <img class="dashboard-settings-child3" alt="" src="{{url_for('static',filename ='/public/line-7.svg')}}"/>
+
+      <div class="latest-updates">
+        <p class="your-crops-are">Your crops are on the right track!</p>
+        <p class="your-crops-are">&nbsp;</p>
+        <p class="your-crops-are">Click below to logout</p>
+      </div>
+      <button class="logout" id="logout">LOGOUT</button>
+      <img class="log-out-1-icon" alt="" src="{{url_for('static',filename ='/public/logout-1.svg')}}" />
+
+      <img class="log-out-2-icon" alt="" src="{{url_for('static',filename ='/public/logout-1.svg')}}" />
+
+      <img class="log-out-3-icon" alt="" src="{{url_for('static',filename ='/public/logout-1.svg')}}" />
+    </div>
+
+    <script>
+      var notifButton = document.getElementById("notifButton");
+      if (notifButton) {
+        notifButton.addEventListener("click", function (e) {
+          window.location.href = "./notification";
+        });
+      }
+      
+      var notifButton = document.getElementById("logout");
+      if (notifButton) {
+        notifButton.addEventListener("click", function (e) {
+          window.location.href = "./";
+        });
+      }
+      
+      var weatherButton = document.getElementById("weatherButton");
+      if (weatherButton) {
+        weatherButton.addEventListener("click", function (e) {
+          window.location.href = "./weather";
+        });
+      }
+      
+      var fertilizersButton = document.getElementById("fertilizersButton");
+      if (fertilizersButton) {
+        fertilizersButton.addEventListener("click", function (e) {
+          window.location.href = "./fertilizers";
+        });
+      }
+      
+      var cropStageButton = document.getElementById("cropStageButton");
+      if (cropStageButton) {
+        cropStageButton.addEventListener("click", function (e) {
+          window.location.href = "./crop";
+        });
+      }
+      
+      var settingsButton = document.getElementById("settingsButton");
+      if (settingsButton) {
+        settingsButton.addEventListener("click", function (e) {
+          window.location.href = "./settings";
+        });
+      }
+      
+      var homeButton1 = document.getElementById("homeButton");
+      if (homeButton1) {
+        homeButton1.addEventListener("click", function (e) {
+          window.location.href = "./home";
+        });
+      }
+      </script>
+  </body>
+</html>

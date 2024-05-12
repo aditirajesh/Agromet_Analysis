@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./static/input_global.css" />
+    <link rel="stylesheet" href="./static/input_index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="farmer-input-page2">
+      <img class="border-icon" alt="" src="{{url_for('static',filename ='/public/border.svg')}}" />
+
+      <img class="icon" alt="" src="{{url_for('static',filename ='/public/icon.svg')}}"/>
+
+      <div class="enter-your-soils">Enter your soil's NPK values(in kg/ha):</div>
+      <div class="text-bubbles">
+        <div class="text-bubbles-child"></div>
+        <div class="farmer-information">Farmer Information</div>
+
+        <form id="farmer-info", method="post",action='/input'>
+
+            <input
+            class="text-bubbles-item"
+            type="number"
+            id="k"
+            name='k'
+            placeholder="Enter potassium value"
+            />
+
+            <input
+            class="text-bubbles-inner"
+            type="number"
+            id="p"
+            name="p"
+            placeholder="Enter phosphorous value"
+            />
+
+            <div class="nitrogen">Nitrogen</div>
+            <div class="phosphorous">Phosphorous</div>
+            <div class="potassium">Potassium</div>
+            <input
+            class="rectangle-input"
+            type="number"
+            id="n"
+            name="n"
+            placeholder="Enter nitrogen value"
+            />
+        </div>
+        <div class="enter-location-to">Enter location to grow your crops:</div>
+        <input
+            class="farmer-input-page2-child"
+            type="text"
+            id="location"
+            name="location"
+            placeholder="Enter location"
+        />
+
+        
+        <div class="select-your-crop">Select your crop:</div>
+  
+          <select class="farmer-input-page2-inner" id="crop" name="crop" type="text" placeholder="select your crop">
+                <option value="rice">Rice</option>
+                <option value="maize">Maize</option>
+                <option value="cotton">Cotton</option>
+                <option value="lentils">Lentils</option>
+                <option value="chickpea">Chickpea</option>
+                <option value="jute">Jute</option>
+                <option value="coffee">Coffee</option>
+                <option value="coconut">Coconut</option>
+              
+          </select>
+
+        
+        
+        <div class="enter-field-area">Enter field area:</div>
+        <div class="in-acres">(in acres)</div>
+        <input
+            class="farmer-input-page2-child1"
+            type="text"
+            id="area"
+            name="area"
+            placeholder="Enter field area"
+        />
+
+        <div class="enter-dos">Sowing date:</div>
+        <input
+            class="farmer-input-page2-child2"
+            type="text"
+            id="dos"
+            name="dos"
+            placeholder="Enter date of sowing"
+        />
+
+
+        <button type="submit" class="farmer-input-page2-item" id="rectangleButton">SUBMIT</button>
+        
+        </form>
+
+      <img
+        class="undraw-location-search-re-ttoj-icon"
+        alt=""
+        src="{{url_for('static',filename ='/public/undraw-location-search-re-ttoj-1.svg')}}"
+      />
+    </div>
+
+  
+      
+  </body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./static/global.css" />
+    <link rel="stylesheet" href="./static/dashboard-weather.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashboard-weather">
+      <div class="dashboard-weather-child"></div>
+      <div class="dashboard-weather-item"></div>
+      <div class="weather-header1">
+        <b class="weather1">Weather Forecast</b>
+      </div>
+      <img class="weather-logo-icon4" alt="" src="{{url_for('static',filename ='/public/weather-logo3.svg')}}" />
+
+      <img class="bubbles-icon" alt="" src="{{url_for('static',filename ='/public/bubbles.svg')}}"  />
+ 
+      <div class="temperature">Temperature</div>
+      <div class = "temperature gap-3">
+        <div class = "p2 g-col-3" style="margin-top: 100; color: rgba(255,255,255,0);">{{wd[0]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[0]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[0]}}</div>
+        <div class = "p2 g-col-3 fs-1" style="margin-top: 100;">{{wd[0]}}&deg;C</div>
+
+              
+      </div>
+      <div class="feels-like">Feels Like</div>
+      <div class = "feels-like gap-3">
+        <div class = "p2 g-col-3" style="margin-top: 100; color: rgba(255,255,255,0);">{{wd[1]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[1]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[1]}}</div>
+        <div class = "p2 g-col-3 fs-1" style="margin-top: 100;">{{wd[1]}}&deg;C</div>
+
+              
+      </div>
+      <div class="min-temp">Min Temp</div>
+      <div class = "min-temp gap-3">
+        <div class = "p2 g-col-3" style="margin-top: 100; color: rgba(255,255,255,0);">{{wd[2]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[2]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[2]}}</div>
+        <div class = "p2 g-col-3 fs-1" style="margin-top: 100;">{{wd[2]}}&deg;C</div>
+
+              
+      </div>
+      <div class="max-temp">Max Temp</div>
+      <div class = "max-temp gap-3">
+        <div class = "p2 g-col-3" style="margin-top: 100; color: rgba(255,255,255,0);">{{wd[3]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[3]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[2]}}</div>
+        <div class = "p2 g-col-3 fs-1" style="margin-top: 100;">{{wd[3]}}&deg;C</div>
+      </div>
+
+      <div class="pressure">Pressure</div>
+      <div class = "pressure gap-3">
+        <div class = "p2 g-col-3" style="margin-top: 100; color: rgba(255,255,255,0);">{{wd[3]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[3]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[3]}}</div>
+        <div class = "p2 g-col-3 fs-1" style="margin-top: 100;">{{wd[4]}}</div>  
+      </div>
+
+      <div class="wind-speed">Wind Speed</div>
+      <div class = "wind-speed gap-3">
+        <div class = "p2 g-col-3" style="margin-top: 100; color: rgba(255,255,255,0);">{{wd[4]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[4]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[4]}}</div>
+        <div class = "p2 g-col-3 fs-1" style="margin-top: 100;">{{wd[5]}}</div>  
+      </div>
+      <div class="weather-conditioner">
+        <p class="conditioner">Weather</p>
+        <p class="conditioner">Condition</p>
+      </div>
+      <div class = "weather-conditioner gap-3">
+        <div class = "p2 g-col-3" style="margin-top: 100; color: rgba(255,255,255,0);">{{wd[1]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[1]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[1]}}</div>
+        <div class = "p2 g-col-3 fs-3" style="margin-top: 100;">{{wd[6]}}</div>
+
+              
+      </div>
+
+      <div class="humidity">
+        <p class="conditioner">Humidity</p>
+      </div>
+      <div class = "humidity gap-3">
+        <div class = "p2 g-col-3" style="margin-top: 100; color: rgba(255,255,255,0);">{{wd[1]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[1]}}</div>
+        <div class = "p2 g-col-3" style="margin-top: 100;color: rgba(255,255,255,0);">{{wd[1]}}</div>
+        <div class = "p2 g-col-3 fs-1" style="margin-top: 100;">{{wd[7]}}</div>
+
+              
+      </div>
+      <div class="dashboard-weather-inner"></div>
+      <div class="sidebar-expanded-sidebar4">
+        <div class="settings-tab4">
+          <img
+            class="settings-logo-icon4"
+            alt=""
+            src="{{url_for('static',filename ='/public/settings-logo3.svg')}}" 
+          />
+
+          <div class="settings7">Settings</div>
+          <div class="settings-tab-child1"></div>
+        </div>
+        <div class="crop-tab4">
+          <img
+            class="settings-logo-icon4"
+            alt=""
+            src="{{url_for('static',filename ='/public/crop-logo.svg')}}" 
+          />
+
+          <div class="settings7">Crop Stage</div>
+          <div class="settings-tab-child1"></div>
+        </div>
+        <div class="fertilizers-tab4">
+          <img
+            class="fertilizers-logo-icon4"
+            alt=""
+            src="{{url_for('static',filename ='/public/fertilizers-logo3.svg')}}" 
+          />
+
+          <div class="fertilizers4">Fertilizers</div>
+          <div class="settings-tab-child1"></div>
+        </div>
+        <div class="weather-tab4">
+          <img
+            class="weather-logo-icon5"
+            alt=""
+            src="{{url_for('static',filename ='/public/weather-logo4.svg')}}" 
+          />
+
+          <div class="weather-forecast4">Weather Forecast</div>
+          <div class="settings-tab-child1"></div>
+        </div>
+        <div class="notifications-tab4">
+          <img
+            class="notifications-logo-icon4"
+            alt=""
+            src="{{url_for('static',filename ='/public/notifications-logo3.svg')}}" 
+          />
+
+          <div class="notifications4">Notifications</div>
+          <div class="settings-tab-child1"></div>
+        </div>
+        <div class="home-tab4">
+          <div class="home-text4">
+            <div class="home-logo-parent1">
+              <img
+                class="home-logo-icon4"
+                alt=""
+                src="{{url_for('static',filename ='/public/home-logo1.svg')}}" 
+              />
+
+              <div class="home4">Home</div>
+            </div>
+          </div>
+          <div class="current-tab-indicator4"></div>
+          <div class="home-tab-child2"></div>
+        </div>
+        <img
+          class="line-details-icon4"
+          alt=""
+          src="{{url_for('static',filename ='/public/line-details1.svg')}}" />
+
+        <div class="main-text4">
+          <img class="main-logo-icon4" alt="" src="{{url_for('static',filename ='/public/main-logo@2x.png')}}"  />
+
+          <div class="goagrosmart4">goAgroSmart</div>
+        </div>
+      </div>
+      <button class="dashboard-weather-child1"></button>
+      <button class="notif-button3" id="notifButton"></button>
+      <button class="weather-button3"></button>
+      <button class="fertilizers-button3" id="fertilizersButton"></button>
+      <button class="crop-stage-button3" id="cropStageButton"></button>
+      <button class="settings-button3" id="settingsButton"></button>
+      <button class="home-button3" id="homeButton1"></button>
+      <img class="dashboard-weather-child2" alt="" src="{{url_for('static',filename ='/public/line-5.svg')}}" />
+    </div>
+
+    <script>
+      var notifButton = document.getElementById("notifButton");
+      if (notifButton) {
+        notifButton.addEventListener("click", function (e) {
+          window.location.href = "./notification";
+        });
+      }
+      
+      var weatherButton = document.getElementById("weatherButton");
+      if (weatherButton) {
+        weatherButton.addEventListener("click", function (e) {
+          window.location.href = "./weather";
+        });
+      }
+      
+      var fertilizersButton = document.getElementById("fertilizersButton");
+      if (fertilizersButton) {
+        fertilizersButton.addEventListener("click", function (e) {
+          window.location.href = "./fertilizers";
+        });
+      }
+      
+      var cropStageButton = document.getElementById("cropStageButton");
+      if (cropStageButton) {
+        cropStageButton.addEventListener("click", function (e) {
+          window.location.href = "./crop";
+        });
+      }
+      
+      var settingsButton = document.getElementById("settingsButton");
+      if (settingsButton) {
+        settingsButton.addEventListener("click", function (e) {
+          window.location.href = "./settings";
+        });
+      }
+      
+      var homeButton1 = document.getElementById("homeButton1");
+      if (homeButton1) {
+        homeButton1.addEventListener("click", function (e) {
+          window.location.href = "./home";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./static/global2.css" />
+    <link rel="stylesheet" href="./static/index2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather Sans:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <a class="dashboard-home">
+      <div class="title">
+        <div class="title-child"></div>
+        <b class="welcome-text">Hello Jessica! </b>
+        <b class="welcome-back-while"
+          >Welcome back! While you were away, we made sure to look after your
+          crops.
+        </b>
+        <img class="title-item" alt="" src="{{url_for('static',filename ='/public/line-1.svg')}}"/>
+
+        <img class="home-icon" alt="" src="{{url_for('static',filename ='/public/home.svg')}}" />
+
+        <img class="home-icon" alt="" src="{{url_for('static',filename ='/public/home.svg')}}"  />
+
+        <img class="home-icon2" alt="" src="{{url_for('static',filename ='/public/home.svg')}}" />
+
+        <img class="home-icon3" alt="" src="{{url_for('static',filename ='/public/home.svg')}}" />
+
+        <img class="home-icon4" alt="" src="{{url_for('static',filename ='/public/home.svg')}}" />
+
+        <b class="sowing-date">Sowing date: </b>
+        <b class="harvesting-date">Harvesting date:</b>
+      </div>
+      <div class="crop-status">
+        <address class="status-chart">
+          <div class="status-chart-child"></div>
+          <img class="status-chart-item" alt="" src="{{url_for('static',filename ='/public/ellipse-1.svg')}}" />
+        </address>
+        <div class="percentage">{{p}}%</div>
+        <div class="crop-status1">
+          <img
+            class="crop-status-logo"
+            alt=""
+            src="{{url_for('static',filename ='/public/crop-status-logo.svg')}}"
+          />
+
+          <b class="crop-status2">Crop Status</b>
+        </div>
+        <div class="crop-status-child"></div>
+      </div>
+      <div class="sidebar-expanded-sidebar1">
+        <div class="settings-tab1">
+          <img
+            class="settings-logo-icon1"
+            alt=""
+            src="{{url_for('static',filename ='/public/settings-logo2.svg')}}"
+          />
+
+          <div class="settings1">Settings</div>
+          <div class="settings-tab-item"></div>
+        </div>
+        <div class="crop-tab1">
+          <img
+            class="settings-logo-icon1"
+            alt=""
+            src="{{url_for('static',filename ='/public/crop-logo1.svg')}}"
+          />
+
+          <div class="crop-stage1">Crop Stage</div>
+          <div class="settings-tab-item"></div>
+        </div>
+        <div class="fertilizers-tab1">
+          <img
+            class="fertilizers-logo-icon1"
+            alt=""
+            src="{{url_for('static',filename ='/public/fertilizers-logo2.svg')}}"
+          />
+
+          <div class="fertilizers1">Fertilizers</div>
+          <div class="settings-tab-item"></div>
+        </div>
+        <div class="weather-tab1">
+          <img
+            class="weather-logo-icon1"
+            alt=""
+            src="{{url_for('static',filename ='/public/weather-logo2.svg')}}"
+          />
+
+          <div class="weather-forecast1">Weather Forecast</div>
+          <div class="settings-tab-item"></div>
+        </div>
+        <div class="notifications-tab1">
+          <img
+            class="notifications-logo-icon1"
+            alt=""
+            src="{{url_for('static',filename ='/public/notifications-logo2.svg')}}"
+          />
+
+          <div class="notifications1">Notifications</div>
+          <div class="settings-tab-item"></div>
+        </div>
+        <div class="home-tab1">
+          <div class="home-text1">
+            <div class="home-logo-group">
+              <img
+                class="home-logo-icon1"
+                alt=""
+                src="{{url_for('static',filename ='/public/home-logo.svg')}}"
+              />
+
+              <div class="home1">Home</div>
+            </div>
+          </div>
+          <div class="current-tab-indicator1"></div>
+          <div class="home-tab-item"></div>
+        </div>
+        <img
+          class="line-details-icon1"
+          alt=""
+          src="{{url_for('static',filename ='/public/line-details.svg')}}"
+        />
+
+        <div class="main-text1">
+          <img class="main-logo-icon1" alt="" src="{{url_for('static',filename ='/public/main-logo@2x.png')}}"/>
+
+          <div class="goagrosmart1">goAgroSmart</div>
+        </div>
+      </div>
+      <div class="profile">
+        <p class="click-on-the">Profile</p>
+      </div>
+      <button class="dashboard-home-child"></button>
+      <button class="notif-button" id="notifButton"></button>
+      <button class="weather-button" id="weatherButton"></button>
+      <button class="fertilizers-button" id="fertilizersButton"></button>
+      <button class="crop-stage-button" id="cropStageButton"></button>
+      <button class="settings-button" id="settingsButton"></button>
+      <button class="home-button"></button>
+      <div class="weather-header">
+        <b class="weather">Home</b>
+      </div>
+      <div class="dashboard-home-item" style="color: black;">{{dos}}</div>
+      <div class="dashboard-home-inner" style="color: black;">{{doh}}</div>
+      <img class="line-icon" alt="" src="{{url_for('static',filename ='/public/line-5.svg')}}" />
+
+      <img class="spade-icon" alt="" src="{{url_for('static',filename ='/public/spade@2x.png')}}" />
+
+      <img class="seed-packet-icon" alt="" src="{{url_for('static',filename ='/public/seed-packet@2x.png')}}" />
+
+      <div class="frame-parent">
+        <div class="frame-child" style="color: black;">{{N}}</div>
+        <div class="frame-item" style="color: black;">{{P}}</div>
+        <div class="frame-inner" style="color: black;">{{K}}</div>
+        <b class="nitrogen1">Nitrogen: </b>
+        <b class="phosphorous1">Phosphorous:</b>
+        <b class="potassium1">Potassium:</b>
+      </div>
+      <div class="click-on-the-notifications-tab-wrapper">
+        <b class="click-on-the-container">
+          <p class="click-on-the">Click on the notifications tab</p>
+          <p class="click-on-the">to get started on your daily task!</p>
+        </b>
+      </div>
+    </a>
+
+    <script>
+      var notifButton = document.getElementById("notifButton");
+      if (notifButton) {
+        notifButton.addEventListener("click", function (e) {
+          window.location.href = "{{url_for('notification')}}";
+        });
+      }
+      
+      var weatherButton = document.getElementById("weatherButton");
+      if (weatherButton) {
+        weatherButton.addEventListener("click", function (e) {
+          window.location.href = "{{url_for('weather')}}";
+        });
+      }
+      
+      var fertilizersButton = document.getElementById("fertilizersButton");
+      if (fertilizersButton) {
+        fertilizersButton.addEventListener("click", function (e) {
+          window.location.href = "{{url_for('fert')}}";
+          // Please sync "Dashboard - Fertilizers" to the project
+        });
+      }
+      
+      var cropStageButton = document.getElementById("cropStageButton");
+      if (cropStageButton) {
+        cropStageButton.addEventListener("click", function (e) {
+          window.location.href = "{{url_for('crop')}}";
+          // Please sync "Dashboard-crop stage" to the project
+        });
+      }
+      
+      var settingsButton = document.getElementById("settingsButton");
+      if (settingsButton) {
+        settingsButton.addEventListener("click", function (e) {
+          window.location.href = "{{url_for('setting')}}";
+          // Please sync "Dashboard-settings" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./static/global.css" />
+    <link rel="stylesheet" href="./static/dashboard-notif.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashboard-notif">
+      <div class="main-content">
+        <div class="main-content-child"></div>
+        <div class="main-content-item"></div>
+        <div class="notification-header">
+          <b class="notifications7">Notifications</b>
+          <div class="latest-updates2">Latest Updates</div>
+          <img class="group-icon" alt="" src="{{url_for('static',filename ='/public/group.svg')}}" />
+        </div>
+        <div class="text-bubbles">
+          <div class="text-bubbles-child">
+            {% for dat in dats %}
+              <p style="color: azure; font-size: xx-large; margin: 5px;left: 10%;">{{dat}}</p>
+            {% endfor %}
+          </div>
+          <div class="text-bubbles-item"></div>
+          <div class="text-bubbles-inner"></div>
+        </div>
+        <img class="news-logo-icon" alt="" src="{{url_for('static',filename ='/public/news-logo.svg')}}" />
+      </div>
+      <div class="dashboard-notif-child"></div>
+      <div class="current-tab-indicator6"></div>
+      <div class="dashboard-notif-item"></div>
+      <div class="sidebar-expanded-sidebar6">
+        <div class="settings-tab6">
+          <img
+            class="settings-logo-icon6"
+            alt=""
+            src="{{url_for('static',filename ='/public/settings-logo5.svg')}}"
+          />
+
+          <div class="settings9">Settings</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="crop-tab6">
+          <img
+            class="settings-logo-icon6"
+            alt=""
+            src="{{url_for('static',filename ='/public/crop-logo2.svg')}}"
+          />
+
+          <div class="settings9">Crop Stage</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="fertilizers-tab6">
+          <img
+            class="fertilizers-logo-icon6"
+            alt=""
+            src="{{url_for('static',filename ='/public/fertilizers-logo5.svg')}}"
+          />
+
+          <div class="fertilizers6">Fertilizers</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="weather-tab6">
+          <img
+            class="weather-logo-icon7"
+            alt=""
+            src="{{url_for('static',filename ='/public/weather-logo6.svg')}}"
+          />
+
+          <div class="weather-forecast6">Weather Forecast</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="notifications-tab6">
+          <img
+            class="notifications-logo-icon6"
+            alt=""
+            src="{{url_for('static',filename ='/public/notifications-logo2.svg')}}"
+          />
+
+          <div class="notifications8">Notifications</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="home-tab6">
+          <div class="home-text6">
+            <div class="home-logo-parent3">
+              <img
+                class="home-logo-icon6"
+                alt=""
+                src="{{url_for('static',filename ='/public/home-logo.svg')}}"
+              />
+
+              <div class="home6">Home</div>
+            </div>
+          </div>
+          <div class="current-tab-indicator7"></div>
+          <div class="home-tab-child4"></div>
+        </div>
+        <img
+          class="line-details-icon6"
+          alt=""
+          src="{{url_for('static',filename ='/public/line-details.svg')}}"
+        />
+
+        <div class="main-text6">
+          <img class="main-logo-icon7" alt="" src="{{url_for('static',filename ='/public/main-logo@2x.png')}}" />
+
+          <div class="goagrosmart6">goAgroSmart</div>
+        </div>
+      </div>
+      <button class="dashboard-notif-inner"></button>
+      <button class="notif-button5"></button>
+      <button class="weather-button5"></button>
+      <button class="fertilizers-button5"></button>
+      <button class="crop-stage-button5"></button>
+      <button class="settings-button5"></button>
+      <button class="home-button5"></button>
+      <div class="sidebar-expanded-sidebar7">
+        <div class="settings-tab6">
+          <img
+            class="settings-logo-icon6"
+            alt=""
+            src="{{url_for('static',filename ='/public/settings-logo5.svg')}}"
+          />
+
+          <div class="settings9">Settings</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="crop-tab6">
+          <img
+            class="settings-logo-icon6"
+            alt=""
+            src="{{url_for('static',filename ='/public/crop-logo2.svg')}}"
+          />
+
+          <div class="settings9">Crop Stage</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="fertilizers-tab6">
+          <img
+            class="fertilizers-logo-icon6"
+            alt=""
+            src="{{url_for('static',filename ='/public/fertilizers-logo5.svg')}}"
+          />
+
+          <div class="fertilizers6">Fertilizers</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="weather-tab6">
+          <img
+            class="weather-logo-icon7"
+            alt=""
+            src="{{url_for('static',filename ='/public/weather-logo6.svg')}}"
+          />
+
+          <div class="weather-forecast6">Weather Forecast</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="notifications-tab6">
+          <img
+            class="notifications-logo-icon6"
+            alt=""
+            src="{{url_for('static',filename ='/public/notifications-logo2.svg')}}"
+          />
+
+          <div class="notifications8">Notifications</div>
+          <div class="settings-tab-child3"></div>
+        </div>
+        <div class="home-tab6">
+          <div class="home-text6">
+            <div class="home-logo-parent3">
+              <img
+                class="home-logo-icon6"
+                alt=""
+                src="{{url_for('static',filename ='/public/home-logo.svg')}}"
+              />
+
+              <div class="home6">Home</div>
+            </div>
+          </div>
+          <div class="current-tab-indicator7"></div>
+          <div class="home-tab-child4"></div>
+        </div>
+        <img
+          class="line-details-icon7"
+          alt=""
+          src="{{url_for('static',filename ='/public/line-details.svg')}}"
+        />
+
+        <div class="main-text6">
+          <img class="main-logo-icon8" alt="" src="{{url_for('static',filename ='/public/main-logo@2x.png')}}" />
+
+          <div class="goagrosmart6">goAgroSmart</div>
+        </div>
+      </div>
+      <button class="dashboard-notif-child1"></button>
+      <button class="notif-button5"></button>
+      <button class="weather-button5" id="weatherButton"></button>
+      <button class="fertilizers-button5" id="fertilizersButton"></button>
+      <button class="crop-stage-button5" id="cropStageButton"></button>
+      <button class="settings-button5" id="settingsButton"></button>
+      <button class="home-button5" id="homeButton"></button>
+      <img class="dashboard-notif-child2" alt="" src="{{url_for('static',filename ='/public/line-7.svg')}}" />
+    </div>
+
+    <script>
+      var notifButton = document.getElementById("notifButton");
+      if (notifButton) {
+        notifButton.addEventListener("click", function (e) {
+          window.location.href = "./notification";
+        });
+      }
+      
+      var weatherButton = document.getElementById("weatherButton");
+      if (weatherButton) {
+        weatherButton.addEventListener("click", function (e) {
+          window.location.href = "./weather";
+        });
+      }
+      
+      var fertilizersButton = document.getElementById("fertilizersButton");
+      if (fertilizersButton) {
+        fertilizersButton.addEventListener("click", function (e) {
+          window.location.href = "./fertilizers";
+        });
+      }
+      
+      var cropStageButton = document.getElementById("cropStageButton");
+      if (cropStageButton) {
+        cropStageButton.addEventListener("click", function (e) {
+          window.location.href = "./crop";
+        });
+      }
+      
+      var settingsButton = document.getElementById("settingsButton");
+      if (settingsButton) {
+        settingsButton.addEventListener("click", function (e) {
+          window.location.href = "./settings";
+        });
+      }
+      
+      var homeButton1 = document.getElementById("homeButton");
+      if (homeButton1) {
+        homeButton1.addEventListener("click", function (e) {
+          window.location.href = "./home";
+        });
+      }
+      </script>
+  </body>
+</html>
