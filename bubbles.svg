@@ -1,0 +1,26 @@
+<svg width="906" height="519" viewBox="0 0 906 519" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="232" y="1" width="199" height="226" rx="25" fill="#4D6440"/>
+<path d="M232 25C232 11.1929 243.193 0 257 0H406C419.807 0 431 11.1929 431 25V83H232V25Z" fill="#658354"/>
+<line x1="232" y1="80.5" x2="433" y2="80.5" stroke="white" stroke-width="5"/>
+<rect x="464" y="1" width="199" height="226" rx="25" fill="#4D6440"/>
+<path d="M465 27C465 13.1929 476.193 2 490 2H639C652.807 2 664 13.1929 664 27V85H465V27Z" fill="#658354"/>
+<line x1="465" y1="82.5" x2="666" y2="82.5" stroke="white" stroke-width="5"/>
+<rect x="1" y="2" width="199" height="226" rx="25" fill="#4D6440"/>
+<path d="M1 26C1 12.1929 12.1929 1 26 1H175C188.807 1 200 12.1929 200 26V84H1V26Z" fill="#658354"/>
+<line x1="-2.13121e-10" y1="81.5" x2="201" y2="81.5" stroke="white" stroke-width="5"/>
+<rect x="235" y="293" width="199" height="226" rx="25" fill="#4D6440"/>
+<path d="M235 317C235 303.193 246.193 292 260 292H409C422.807 292 434 303.193 434 317V375H235V317Z" fill="#658354"/>
+<line x1="235" y1="372.5" x2="436" y2="372.5" stroke="white" stroke-width="5"/>
+<rect y="293" width="199" height="226" rx="25" fill="#4D6440"/>
+<path d="M0 317C0 303.193 11.1929 292 25 292H174C187.807 292 199 303.193 199 317V375H0V317Z" fill="#658354"/>
+<line x1="-2.13121e-10" y1="372.5" x2="201" y2="372.5" stroke="white" stroke-width="5"/>
+<rect x="465" y="293" width="199" height="226" rx="25" fill="#4D6440"/>
+<path d="M465 317C465 303.193 476.193 292 490 292H639C652.807 292 664 303.193 664 317V375H465V317Z" fill="#658354"/>
+<line x1="465" y1="372.5" x2="666" y2="372.5" stroke="white" stroke-width="5"/>
+<rect x="705" y="293" width="199" height="226" rx="25" fill="#4D6440"/>
+<path d="M705 317C705 303.193 716.193 292 730 292H879C892.807 292 904 303.193 904 317V375H705V317Z" fill="#658354"/>
+<line x1="705" y1="372.5" x2="906" y2="372.5" stroke="white" stroke-width="5"/>
+<rect x="705" y="2" width="199" height="226" rx="25" fill="#4D6440"/>
+<path d="M705 27C705 13.1929 716.193 2 730 2H879C892.807 2 904 13.1929 904 27V85H705V27Z" fill="#658354"/>
+<line x1="705" y1="82.5" x2="906" y2="82.5" stroke="white" stroke-width="5"/>
+</svg>
